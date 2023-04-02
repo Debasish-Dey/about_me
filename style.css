@@ -324,13 +324,14 @@ h1{
     #pic3{width: 230px;}
     #w4{width: 230px;}
     #bleach{width: 228px;}
+    #bgimg3{width: 270px;}
     .about-text{width: 250px;}
     .links{display: flex;
         flex-direction: column;}
 }
 
 @media screen and (max-width: 410px){
-    #bgimg3{width: 280px;}
+    #bgimg3{width: 270px;}
     .links{display: flex;
         flex-direction: column;}
 
