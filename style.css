@@ -237,7 +237,7 @@ h1{
 } */
 
 .footer{
-    /* background-color: #24262b;*/
+    /* background-color: #24262b; */
     background-image: linear-gradient(19deg, #615e5ef8 200%, #fffefeec 170%); 
     padding: 0px;
     font-family: "Poppins", sans-serif;
@@ -369,7 +369,13 @@ h1{
         flex-direction: column;
     }
     #gallery{
-        height: 50vh;
+        height: 80vh;
+        }
+}
+
+@media screen and (max-width: 850px) {
+    #gallery{
+        height: 100vh;
         }
 }
 
@@ -379,6 +385,8 @@ h1{
     .about-text{width: 400px;}
     #hobbies1{display: block;}
     #hobbies{display: none;}
+    #cm{width: 200px;}
+    #gallery{height: 100vh;}
 
 }
 
@@ -387,6 +395,13 @@ h1{
     #pic3{width: 220px;}
     #w4{width: 220px;}
     #bleach{width: 218px;}
+    #cm{width: 200px;}
+    #gallery{height: 110vh;}
+}
+
+@media screen and (max-width: 525px){
+    #tt{margin: 0px;}
+    #ins{margin: 0px;}
 }
 
 @media screen and (max-width: 510px) {
@@ -396,8 +411,10 @@ h1{
     #bleach{width: 200px;}
     .about-text{width: 300px;}
     #bgimg3{width: 300px;}
-    .links{display: flex;
-        flex-direction: column;}
+    /* .links{display: flex;
+        flex-direction: row;}  */
+    #cm{width: 200px;}
+    .footer{width: 430px;}
     
 }
 
@@ -408,33 +425,37 @@ h1{
     #bleach{width: 228px;}
     #bgimg3{width: 270px;}
     .about-text{width: 250px;}
-    .links{display: flex;
-        flex-direction: column;}
-    .social-links{display: flex;
-        flex-direction: column;
-    }
+    /* .links{display: block} */
+    /* .social-links{display: flex;
+        flex-direction: column; */
+    /* } */
+    .gallery{height: 80vh;}
     }
 
     .footer-col{
-        height: 18vh;
+        height: 22vh;
     }
+    #cm{width: 200px;}
     
 @media scree and (max-width: 422px){
     #tt{margin-left: 0px;}
+    #cm{width: 200px;}
 }
 
 
 @media screen and (max-width: 410px){
     #bgimg3{width: 270px;}
-    .links{display: flex;
-        flex-direction: column;}
-        .footer-col{height: 22vh;}
+    /* .links{display: flex;
+        flex-direction: column;} */
+    .footer-col{height: 22vh;}
     #tt{margin-left: 0%;}
+    #cm{width: 200px;}
 
 }
 
 @media screen and (max-width: 390px){
     #bgimg3{width: 230px;}
+    #cm{width: 200px;}
 
 }
 
@@ -463,6 +484,7 @@ h1{
     #w4{width: 180px;}
     #bleach{width: 178px;}
     .about-text{width: 200px;}
+    .footer{width: 429px;}
 }
 
 @media screen and (max-width: 300px){
